@@ -47,6 +47,15 @@ public class CellShould {
     }
 
     @Test
+    void living_cell_with_4_neighbour_should_not_live_on_next_generation() {
+        Position position = new Position(0,0);
+        Cell expectedCell = new DeadCell(position);
+        Cell actualCell = new AliveCell(position);
+        actualCell = actualCell.nextGeneration(4);
+        assertEquals(expectedCell, actualCell);
+    }
+
+    @Test
     void death_cell_should_live_at_next_generation() {
         Position position = new Position(0,0);
         Cell expectedCell = new AliveCell(position);
