@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="555a9b2e-296a-424f-9f42-d78a37d70642" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/AliveCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AliveCell.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DeadCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DeadCell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DeadCell.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DeadCell.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
