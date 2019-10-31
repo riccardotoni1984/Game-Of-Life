@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="555a9b2e-296a-424f-9f42-d78a37d70642" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/UniverseShould.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Universe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Universe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PositionShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PositionShould.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UniverseShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UniverseShould.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Universe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Universe.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +65,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="LimitedWIP" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -141,9 +142,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UniverseShould.a_cell_with_3_neighbours_should_live_on_next_generation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GameOfLife1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UniverseShould" />
+      <option name="METHOD_NAME" value="a_cell_with_3_neighbours_should_live_on_next_generation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in GameOfLife1" />
+        <item itemvalue="JUnit.UniverseShould.a_cell_with_3_neighbours_should_live_on_next_generation" />
         <item itemvalue="JUnit.CellShould" />
         <item itemvalue="JUnit.PositionShould.return_its_neighbours" />
         <item itemvalue="JUnit.PositionShould" />
@@ -163,6 +175,7 @@
       <workItem from="1572516189457" duration="8030000" />
       <workItem from="1572524494806" duration="1346000" />
       <workItem from="1572530596598" duration="267000" />
+      <workItem from="1572537624677" duration="2408000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1572530766072</created>
@@ -185,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572531580268</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&#10;happy">
+      <created>1572537356301</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1572537356301</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,7 +216,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -204,6 +226,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="&#10;happy" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;happy" />
   </component>
 </project>
