@@ -55,4 +55,13 @@ public class CellShould {
         assertEquals(expectedCell, actualCell);
     }
 
+    @Test
+    void death_cell_with_fewer_than_3_neighbours_should_not_live_at_next_generation() {
+        Position position = new Position(0,0);
+        Cell expectedCell = new DeadCell(position);
+        Cell actualCell = new DeadCell(position);
+        actualCell = actualCell.nextGeneration(2);
+        assertEquals(expectedCell, actualCell);
+    }
+
 }
