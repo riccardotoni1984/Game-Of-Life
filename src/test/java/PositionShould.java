@@ -7,7 +7,6 @@ import static java.util.Arrays.asList;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class PositionShould {
-
     @Test
     void return_its_neighbours() {
         List<Position> actualNeighbours = new Position(2,2).getNeighbours();
