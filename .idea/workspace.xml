@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="555a9b2e-296a-424f-9f42-d78a37d70642" name="Default Changelist" comment="">
+    <list default="true" id="555a9b2e-296a-424f-9f42-d78a37d70642" name="Default Changelist" comment="commit">
       <change beforePath="$PROJECT_DIR$/src/test/java/CellShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CellShould.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CellShould.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CellShould.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
