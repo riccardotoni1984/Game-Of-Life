@@ -14,6 +14,13 @@ public class Universe {
         }
     }
 
+    public Universe(int size, Position... positions) {
+        this(size);
+        for (Position position: positions) {
+            universe.replace(position, new AliveCell());
+        }
+    }
+
     public Map<Position,Cell> getUniverse() {
         return universe;
     }
