@@ -11,16 +11,7 @@ public class CellShould {
     private Universe universe;
 
     @Test
-    void living_cell_with_0_neighbour_should_die_on_next_generation() {
-        Position position = new Position(0,0);
-        Cell expectedCell = new DeadCell(position);
-        Cell actualCell = new AliveCell(position);
-        actualCell = actualCell.nextGeneration(0);
-        assertEquals(expectedCell, actualCell);
-    }
-
-    @Test
-    void living_cell_with_1_neighbour_should_die_on_next_generation() {
+    void living_cell_with_fewer_than_neighbour_should_die_on_next_generation() {
         Position position = new Position(0,0);
         Cell expectedCell = new DeadCell(position);
         Cell actualCell = new AliveCell(position);
@@ -47,7 +38,7 @@ public class CellShould {
     }
 
     @Test
-    void living_cell_with_4_neighbour_should_not_live_on_next_generation() {
+    void living_cell_with_more_than_neighbour_should_not_live_on_next_generation() {
         Position position = new Position(0,0);
         Cell expectedCell = new DeadCell(position);
         Cell actualCell = new AliveCell(position);
