@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="555a9b2e-296a-424f-9f42-d78a37d70642" name="Default Changelist" comment="commit">
-      <change beforePath="$PROJECT_DIR$/src/test/java/CellShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CellShould.java" afterDir="false" />
+    <list default="true" id="555a9b2e-296a-424f-9f42-d78a37d70642" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/DeadCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DeadCell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DeadCell.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DeadCell.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -168,7 +169,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572530766073</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit">
+      <created>1572531367129</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572531367129</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit">
+      <created>1572531580268</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1572531580268</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

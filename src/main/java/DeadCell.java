@@ -9,10 +9,10 @@ public class DeadCell implements Cell {
     }
 
     @Override
-    public Cell nextGeneration(int i) {
-        if(i ==3)
-        return new AliveCell(position);
-    return this;
+    public Cell nextGeneration(int neighboursAmmount) {
+        if (neighboursAmmount == 3)
+            return new AliveCell(position);
+        return this;
     }
 
     @Override
