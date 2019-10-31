@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="LimitedWIPSettings">
+    <option name="autoRevertEnabled" value="true" />
+    <option name="doNotRevertTests" value="true" />
+    <option name="minutesTillRevert" value="4" />
+    <option name="tcrActionOnPassedTest" value="OpenCommitDialog" />
+    <option name="tcrEnabled" value="true" />
+    <option name="watchdogEnabled" value="false" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>

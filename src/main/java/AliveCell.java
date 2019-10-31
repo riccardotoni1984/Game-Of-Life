@@ -10,7 +10,7 @@ public class AliveCell implements Cell {
 
     @Override
     public Cell nextGeneration(int neighboursCount) {
-        if(neighboursCount == 2) return this;
+        if(neighboursCount == 2 || neighboursCount == 3) return this;
         return new DeadCell(position);
     }
 
