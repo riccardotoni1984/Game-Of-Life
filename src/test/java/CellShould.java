@@ -1,14 +1,9 @@
 
-
-
-
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CellShould {
-
-    private Universe universe;
 
     @Test
     void living_cell_with_fewer_than_neighbour_should_die_on_next_generation() {

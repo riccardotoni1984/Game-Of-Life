@@ -1,4 +1,3 @@
-import java.util.Objects;
 
 public class AliveCell implements Cell {
 

@@ -2,10 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="555a9b2e-296a-424f-9f42-d78a37d70642" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ClojureProjectResolveSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ClojureProjectResolveSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameOfLife1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AliveCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AliveCell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DeadCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DeadCell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Position.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Universe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Universe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CellShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CellShould.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PositionShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PositionShould.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/UniverseShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UniverseShould.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AliveCell.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AliveCell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Cell.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DeadCell.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DeadCell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Position.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Universe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Universe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CellShould.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CellShould.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PositionShould.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PositionShould.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UniverseShould.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/UniverseShould.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +74,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -84,17 +105,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in GameOfLife1">
+  <component name="RunManager" selected="JUnit.All in GameOfLife">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
       <setting name="execution" value="LEININGEN" />
-      <module name="" />
       <setting name="jvmArgs" value="" />
       <setting name="parameters" value="" />
       <setting name="workingDir" value="" />
       <setting name="profiles" value="" />
       <setting name="aliases" value="" />
       <setting name="fixLineNumbers" value="false" />
+      <extension name="recording" autostart="false" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
@@ -103,11 +124,19 @@
       <setting name="replType" value="SOCKET" />
       <setting name="configType" value="SPECIFY" />
       <setting name="fixLineNumbers" value="false" />
-      <module name="" />
       <method v="2" />
+    </configuration>
+    <configuration name="All in GameOfLife" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GameOfLife" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="All in GameOfLife1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GameOfLife1" />
+      <extension name="recording" autostart="true" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
@@ -116,6 +145,7 @@
     </configuration>
     <configuration name="CellShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GameOfLife1" />
+      <extension name="recording" autostart="true" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CellShould" />
       <option name="TEST_OBJECT" value="class" />
@@ -123,17 +153,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PositionShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GameOfLife1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PositionShould" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PositionShould.return_its_neighbours" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GameOfLife1" />
+      <extension name="recording" autostart="true" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PositionShould" />
       <option name="METHOD_NAME" value="return_its_neighbours" />
@@ -144,6 +166,7 @@
     </configuration>
     <configuration name="UniverseShould.a_cell_with_3_neighbours_should_live_on_next_generation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GameOfLife1" />
+      <extension name="recording" autostart="true" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="UniverseShould" />
       <option name="METHOD_NAME" value="a_cell_with_3_neighbours_should_live_on_next_generation" />
@@ -154,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in GameOfLife" />
         <item itemvalue="JUnit.All in GameOfLife1" />
         <item itemvalue="JUnit.UniverseShould.a_cell_with_3_neighbours_should_live_on_next_generation" />
         <item itemvalue="JUnit.CellShould" />
         <item itemvalue="JUnit.PositionShould.return_its_neighbours" />
-        <item itemvalue="JUnit.PositionShould" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +198,15 @@
       <workItem from="1572516189457" duration="8030000" />
       <workItem from="1572524494806" duration="1346000" />
       <workItem from="1572530596598" duration="267000" />
-      <workItem from="1572537624677" duration="2408000" />
+      <workItem from="1572537624677" duration="3887000" />
+      <workItem from="1572601426594" duration="3184000" />
+      <workItem from="1572875748781" duration="12000" />
+      <workItem from="1572947334830" duration="220000" />
+      <workItem from="1572947585137" duration="34000" />
+      <workItem from="1572947645006" duration="244000" />
+      <workItem from="1573033984144" duration="610000" />
+      <workItem from="1573035411446" duration="10000" />
+      <workItem from="1574442897851" duration="226000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1572530766072</created>

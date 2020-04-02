@@ -1,13 +1,10 @@
-import javafx.geometry.Pos;
-import org.junit.jupiter.api.Test;
 
-import java.util.HashMap;
+import org.junit.jupiter.api.Test;
 import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class UniverseShould {
-
 
     @Test
     void cells_are_dead_by_default() {
@@ -34,7 +31,6 @@ public class UniverseShould {
         }
         assertEquals(8,actualNumberOfDeadCells);
     }
-
 
     @Test
     void count_living_neighbours() {
